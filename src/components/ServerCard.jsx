@@ -2,7 +2,7 @@ import React from "react";
 import "../components/servercard.css"; 
 import logo from '../assets/react.svg'; 
 
-const ServerCard = () => {
+const ServerCard = (props) => {
   return (
     <div className="server-card">
       <div className="background-image">
@@ -10,7 +10,7 @@ const ServerCard = () => {
       </div>
       <div className="server-details">
         <img src={logo} alt="Midjourney Logo" className="server-logo" />
-        <div className="server-title">Midjourney</div>
+        <div className="server-title">{props.title}</div>
         <div className="server-description">
           The official server for Midjourney, a text-to-image AI where your imagination is the only limit.
         </div>

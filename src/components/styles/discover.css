@@ -1,0 +1,26 @@
+.page{
+    display: flex;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.server-option{
+    width: 35vw;
+    background-color: rgb(225,226,228);
+}
+.options{
+    width: 80%;
+    /* background-color: ; */
+    border: 1px solid black;
+    height: 40px;
+    background-color:rgb(173, 174, 177) ;
+}
+.servers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: #adaeb1;
+}
+.featured{
+    background-color: #adaeb1;
+}
