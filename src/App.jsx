@@ -1,10 +1,10 @@
 import React from 'react'
-import Discover from './components/Discover'
+import Discover from './component/Discover'
 
 function App() {
   return (
     <div>
-    <Discover/>
+      <Discover/>
     </div>
   )
 }

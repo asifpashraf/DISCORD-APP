@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Left() {
+function ServerCard() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function Left() {
   )
 }
 
-export default Left
+export default ServerCard
