@@ -1,9 +1,9 @@
 import React from 'react'
 
-function ServerCard() {
+function ServerCard(props) {
   return (
-    <div>
-      
+    <div className='server-card'>
+      <h1>{props.titles}good</h1>
     </div>
   )
 }

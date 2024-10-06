@@ -4,5 +4,9 @@
 }
 .discover-page{
     display: flex;
-    
+
+}
+.layout{
+    width: 5vw;
+    background-color: blue;
 }
